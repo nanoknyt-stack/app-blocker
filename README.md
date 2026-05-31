@@ -24,6 +24,7 @@ app/src/main/java/com/example/appblocker/
 
 app/src/main/res/           # Standard Android resources (icons, themes)
 app/build.gradle.kts        # Module-level Gradle configuration (Compose & DataStore dep
+```
 
 ## Tech Stack
 
