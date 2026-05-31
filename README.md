@@ -14,6 +14,7 @@ A session-based Android application designed to enhance digital wellbeing by lim
 
 The project follows a standard Android Kotlin structure.
 
+```text
 app/src/main/java/com/example/appblocker/
 ├── MainActivity.kt         # Entry point, handles permissions and main dashboard UI
 ├── AppBlockerService.kt    # Foreground service containing the core state machine & UsageStats tracking
