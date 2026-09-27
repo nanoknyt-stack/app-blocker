@@ -113,7 +113,7 @@ class AppBlockerService : Service() {
 
         val notif = NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("App Blocker active")
-            .setContentText("Session-based blocking enabled")
+            .setContentText("TikTok session limit active")
             .setSmallIcon(android.R.drawable.ic_lock_lock)
             .setOngoing(true)
             .setContentIntent(tapIntent)

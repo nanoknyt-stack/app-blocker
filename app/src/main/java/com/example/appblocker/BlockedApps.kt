@@ -10,7 +10,7 @@ object BlockedApps {
     val rules: List<Rule> = listOf(
         Rule("com.zhiliaoapp.musically", "TikTok"),
         Rule("com.ss.android.ugc.trill", "TikTok"),
-        Rule("com.google.android.youtube", "YouTube")
+        Rule("com.zhiliaoapp.musically.go", "TikTok Lite")
     )
 
     fun ruleFor(pkg: String): Rule? = rules.firstOrNull { it.packageName == pkg }

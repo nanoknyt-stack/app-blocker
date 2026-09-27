@@ -428,7 +428,7 @@ private fun DisclaimerCard() {
             Spacer(Modifier.width(10.dp))
             Column {
                 Text(
-                    "SESSION-BASED LIMIT",
+                    "TIKTOK SESSION LIMIT",
                     color = NeonCyan,
                     fontSize = 10.sp,
                     fontWeight = FontWeight.Bold,
@@ -436,14 +436,14 @@ private fun DisclaimerCard() {
                 )
                 Spacer(Modifier.height(4.dp))
                 Text(
-                    "YouTube restricts separating Shorts from regular videos. Timer applies to the entire app per session.",
+                    "Timer tracks continuous TikTok usage per session. YouTube is not blocked.",
                     color = TextSecondary,
                     fontSize = 12.sp,
                     lineHeight = 16.sp
                 )
                 Spacer(Modifier.height(6.dp))
                 Text(
-                    "Background the app for 60s to reset the timer.",
+                    "Background TikTok for 60s to reset the session timer.",
                     color = TextPrimary.copy(alpha = 0.7f),
                     fontSize = 11.sp,
                     fontStyle = androidx.compose.ui.text.font.FontStyle.Italic
@@ -573,7 +573,7 @@ private fun NebulaGlow(modifier: Modifier = Modifier) {
 private fun HeaderSection() {
     Column(horizontalAlignment = Alignment.CenterHorizontally) {
         Text(
-            "SHORTS CONTROL",
+            "TIKTOK CONTROL",
             color = TextPrimary,
             fontSize = 28.sp,
             fontWeight = FontWeight.Black,

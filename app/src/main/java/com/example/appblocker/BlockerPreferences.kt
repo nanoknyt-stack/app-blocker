@@ -11,7 +11,7 @@ private val Context.dataStore by preferencesDataStore(name = "blocker_prefs")
 
 object BlockerPreferences {
 
-    // Лимит непрерывной сессии в минутах (применяется к YouTube и TikTok).
+    // Лимит непрерывной сессии в минутах (применяется к TikTok).
     private val KEY_SESSION_LIMIT_MIN = intPreferencesKey("session_limit_minutes")
 
     // Grace-период в секундах: если пользователь свернул заблокированное
